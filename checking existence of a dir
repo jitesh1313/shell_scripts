@@ -8,3 +8,5 @@ else
 `mkdir $ndir`
 echo "Directory created"
 fi
+
+‘-d’ option is used to test a particular directory is exist or not
