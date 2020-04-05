@@ -1,0 +1,19 @@
+#!/bin/bash
+function hello() {
+
+str="Hello, $name"
+echo $str
+
+}
+
+echo "Enter your name"
+read name
+
+val=$(hello)
+echo "Return value of the function is $val"
+
+
+output :
+Enter your name
+Jitesh
+Return value of the function is Jitesh
