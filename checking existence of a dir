@@ -10,3 +10,5 @@ echo "Directory created"
 fi
 
 ‘-d’ option is used to test a particular directory is exist or not
+
+‘-f’ option is used to test a particular directory is exist or not
