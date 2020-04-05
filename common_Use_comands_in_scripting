@@ -1,4 +1,5 @@
 diff [options] [original filename] [changed filename] - to check difference in files
+patch
 
 awk : (a) Scans a file line by line
 (b) Splits each input line into fields
