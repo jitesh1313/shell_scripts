@@ -1,0 +1,10 @@
+#!/bin/bash
+Str="Learn Linux from JiteshAneja"
+subStr=${Str:6:5}
+echo $subStr
+
+
+output :
+jites
+
+the value, 6 indicates the starting point from where the substring will start and 5 indicates the length of the substring
