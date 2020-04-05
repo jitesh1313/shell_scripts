@@ -1,0 +1,34 @@
+awk : (a) Scans a file line by line
+(b) Splits each input line into fields
+(c) Compares input line/fields to pattern
+(d) Performs action(s) on matched lines
+
+ awk '{print $1,$4}' file.txt
+ 
+ 
+ 
+Cut : cut command in UNIX is a command for cutting out the sections from each line of files
+-d = dilimter , -c = column , -b = bytes , -f = fixed lenghth
+
+
+
+Xargs - xargs reads items from standard input as separated by blanks and executes a command once for each argument
+echo 'one two three' | xargs mkdir
+ls
+one two three
+
+
+
+Find : Find command is used to search and locate the list of files
+and directories based on conditions you specify for files that match the arguments
+find . -name tecmint.txt
+
+
+
+sed - substitution or for find and replace
+$sed 's/unix/linux/g' test.txt - replaces the word unix with linux globally in file
+
+
+
+awk is quite vast :
+you may refer : https://likegeeks.com/awk-command/
